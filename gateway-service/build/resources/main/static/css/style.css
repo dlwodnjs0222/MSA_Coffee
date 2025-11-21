@@ -1,4 +1,4 @@
-/* style.css - Deep Coffee Theme */
+@charset "UTF-8"; /* style.css - Deep Coffee Theme */
 
 :root {
     /* 색상 팔레트 강화 */
@@ -17,26 +17,6 @@ body {
     color: var(--text-color);
 }
 
-
-.navbar-brand {
-    font-weight: bold;
-}
-
-.nav-item{
-    border-radius: 10px;
-}
-.nav-item:hover {
-    background-color: #6f4e37;
-}
-
-.navbar-nav > li > a {
-    color: black;
-}
-
-.navbar-nav > li > a:hover {
-    color: white;
-}
-
 /* =========================================
    1. 네비게이션 바
    ========================================= */
@@ -47,9 +27,24 @@ body {
     border-bottom: 3px solid var(--coffee-primary); /* 하단에 진한 커피색 라인 추가 */
 }
 .navbar-brand {
-    font-weight: 800;
-    font-size: 1.5rem;
-    letter-spacing: -0.5px;
+    font-weight: bold;
+}
+
+.nav-item{
+    border-radius: 10px;
+    margin: 5px;
+}
+.nav-item:hover {
+    background-color: #6f4e37;
+}
+
+.nav-item > .nav-link {
+    color: black;
+    border-radius: 10px;
+}
+.nav-item > .nav-link:hover {
+    color: white;
+    background-color: #6f4e37;
 }
 
 /* =========================================
