@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" lang="kr">
 <head>
     <meta charset="UTF-8">
     <title>재고 관리 - The MSA Cafe</title>
@@ -50,15 +50,15 @@
                     <input type="hidden" id="stockId">
                     <div class="mb-3">
                         <label class="form-label">상품명</label>
-                        <input type="text" class="form-control" id="stockName" required>
+                        <label for="stockName"></label><input type="text" class="form-control" id="stockName" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">설명</label>
-                        <textarea class="form-control" id="stockDescription"></textarea>
+                        <label for="stockDescription"></label><textarea class="form-control" id="stockDescription"></textarea>
                     </div>
                     <div class="mb-3">
                         <label class="form-label">재고</label>
-                        <input type="number" class="form-control" id="stockStock" required>
+                        <label for="stockStock"></label><input type="number" class="form-control" id="stockStock" required>
                     </div>
                 </form>
             </div>
