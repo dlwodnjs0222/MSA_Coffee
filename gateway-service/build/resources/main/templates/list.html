@@ -14,7 +14,7 @@
             color: black;
         }
 
-        .btn-primary:hover{
+        .btn-primary:hover:enabled{
             background-color: #6f4e37;
             border-color: #6f4e37;
         }
@@ -24,7 +24,7 @@
     <div th:replace="~{fragments/navbar :: navbarFragment}"></div>
     <div class="container mt-5">
         <h2>게시판</h2>
-        <button class="btn btn-primary mb-3" onclick="location.href='/write'">글쓰기</button>
+        <button class="btn btn-primary mb-3" onclick="location.href='write.html'">글쓰기</button>
         <table class="table">
             <thead>
                 <tr>
